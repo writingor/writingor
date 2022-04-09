@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import KeyWordCheckbox from './components/UI/check-box/KeyWordCheckbox';
 import React, { useState } from 'react';
+import MainButton from './components/UI/button/MainButton';
 
 function App() {
 
@@ -11,10 +12,14 @@ function App() {
     setChecked(!checked);
   };
 
+  const doNothing = (e) => {
+    e.preventDefault();
+  }
+
   return (
     <div className="App">
 
-      {/* test checkbox start */}
+      {/* test checkbox START */}
       <KeyWordCheckbox
         isNameIdFor="react"
         value={checked}
@@ -38,7 +43,11 @@ function App() {
       >
         JavaScript
       </KeyWordCheckbox>
-      {/* test checkbox end */}
+      {/* test checkbox END */}
+
+      {/* test button START */}
+      <MainButton onClick={doNothing}>Найти похожие</MainButton>
+      {/* test button START */}
 
     </div>
   );

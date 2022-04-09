@@ -26,10 +26,12 @@
 
 .KeyWordCheckbox__input:checked + label:active {
     background-color: #E0E0E0;
+    transform: scale(0.98);
 }
 
 .KeyWordCheckbox__label:active {
     background-color: #E0E0E0;
+    transform: scale(0.98);
 }
 
 .KeyWordCheckbox__label::selection {
