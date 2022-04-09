@@ -16,14 +16,22 @@
     color: #000000;
     background-color: #C9C9C9;
     margin: 0px 14px 14px 0px;
-    transition: all 200ms linear;
+    transition: all 100ms linear;
     cursor: pointer;
-}
-
-.KeyWordCheckbox__label::selection {
-    background-color: transparent;
 }
 
 .KeyWordCheckbox__input:checked + label {
     background-color: #FFCA7B;
+}
+
+.KeyWordCheckbox__input:checked + label:active {
+    background-color: #E0E0E0;
+}
+
+.KeyWordCheckbox__label:active {
+    background-color: #E0E0E0;
+}
+
+.KeyWordCheckbox__label::selection {
+    background-color: transparent;
 }

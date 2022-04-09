@@ -13,6 +13,8 @@ function App() {
 
   return (
     <div className="App">
+
+      {/* test checkbox start */}
       <KeyWordCheckbox
         isNameIdFor="react"
         value={checked}
@@ -20,6 +22,24 @@ function App() {
       >
         React
       </KeyWordCheckbox>
+
+      <KeyWordCheckbox
+        isNameIdFor="c-sharp"
+        value={checked}
+        onChange={toggleChecked}
+      >
+        C#
+      </KeyWordCheckbox>
+
+      <KeyWordCheckbox
+        isNameIdFor="js"
+        value={checked}
+        onChange={toggleChecked}
+      >
+        JavaScript
+      </KeyWordCheckbox>
+      {/* test checkbox end */}
+
     </div>
   );
 }
