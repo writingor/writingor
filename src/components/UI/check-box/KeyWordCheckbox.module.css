@@ -1,0 +1,29 @@
+.KeyWordCheckbox {
+    
+}
+
+.KeyWordCheckbox__input {
+    display: none;
+}
+
+.KeyWordCheckbox__label {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif; /* don't work ? */
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 4px 27px 6px;
+    color: #000000;
+    background-color: #C9C9C9;
+    margin: 0px 14px 14px 0px;
+    transition: all 200ms linear;
+    cursor: pointer;
+}
+
+.KeyWordCheckbox__label::selection {
+    background-color: transparent;
+}
+
+.KeyWordCheckbox__input:checked + label {
+    background-color: #FFCA7B;
+}
