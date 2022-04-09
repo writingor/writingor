@@ -3,10 +3,12 @@ import './App.css';
 import KeyWordCheckbox from './components/UI/check-box/KeyWordCheckbox';
 import React, { useState } from 'react';
 import MainButton from './components/UI/button/MainButton';
+import PostMenuButton from './components/UI/button/PostMenuButton';
 
 function App() {
 
   const [checked, setChecked] = useState(false);
+  const [isActive, setIsActive] = useState('');
 
   const toggleChecked = () => {
     setChecked(!checked);
@@ -15,6 +17,12 @@ function App() {
   const doNothing = (e) => {
     e.preventDefault();
   }
+
+  const togglePostMenuButton = () => {
+      isActive === '' ? setIsActive('active'): setIsActive('');
+      console.log(isActive);
+  }
+
 
   return (
     <div className="App">
@@ -48,6 +56,12 @@ function App() {
       {/* test button START */}
       <MainButton onClick={doNothing}>Найти похожие</MainButton>
       {/* test button START */}
+
+      {/* test post menu button START */}
+      <div onClick={togglePostMenuButton} className={isActive}>
+        <PostMenuButton id="post-menu-button-1" activeClass={isActive} />
+      </div>
+      {/* test post menu button START */}
 
     </div>
   );
