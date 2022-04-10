@@ -1,12 +1,14 @@
 .Header {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    padding: 10px 0px;
+    padding: 15px 0px;
     box-sizing: border-box;
     background-color: #ffffff;
     border: 1px solid #E0E0E0;
+    z-index: 2;
 }
 
 .Header__search {
@@ -18,8 +20,22 @@
     font-weight: 400;
     text-indent: 44px;
     color: #878787;
-    background-color: #eeeeee;
+    background-color: #f1f1f1;
     border: 1px solid #E0E0E0;
+    transition: all 100ms linear;
+}
+
+.Header__search::placeholder {
+    color: #878787;
+}
+
+.Header__search:active {
+    /* transform: scale(0.984); */
+}
+
+.Header__search:focus {
+    background-color: #fafafa;
+    color: #555555;
 }
 
 .Header__body {
@@ -33,7 +49,9 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    height: 60px;
     padding: 0px 44px;
+    cursor: pointer;
 }
 
 .headerlogo__leftsquare {
@@ -41,8 +59,8 @@
     width: 15px;
     height: 15px;
     margin-right: 5px;
-    background-color: #c9c9c9;
-    transform: translateY(6px);
+    background-color: #cecece;
+    transform: translateY(5px);
 }
 
 .headerlogo__midsquare {

@@ -2,14 +2,13 @@ import './App.css';
 import KeyWordCheckbox from './components/UI/check-box/KeyWordCheckbox';
 import React, { useState } from 'react';
 import MainButton from './components/UI/button/MainButton';
-import PostMenuButton from './components/UI/button/PostMenuButton';
 import PostItem from './components/post/PostItem';
 import Header from './components/header/Header';
 
 function App() {
 
   const [checked, setChecked] = useState(false);
-  const [isActive, setActive] = useState(false);
+
 
   const toggleChecked = () => {
     setChecked(!checked);
@@ -19,10 +18,6 @@ function App() {
     e.preventDefault();
   }
 
-  const togglePostMenuButton = () => {
-    setActive(!isActive);
-    console.log(isActive);
-  }
 
 
   return (
@@ -31,6 +26,19 @@ function App() {
       <Header></Header>
 
       <div className="wrapper">
+
+        <main className='content'>
+          {/* test Post START */}
+          <PostItem onClick={doNothing} />
+          <PostItem onClick={doNothing} />
+          <PostItem onClick={doNothing} />
+          <PostItem onClick={doNothing} />
+          <PostItem onClick={doNothing} />
+          {/* test Post END */}
+        </main>
+
+
+
         {/* test checkbox START */}
         <KeyWordCheckbox
           isNameIdFor="react"
@@ -61,15 +69,6 @@ function App() {
         <MainButton onClick={doNothing}>Найти похожие</MainButton>
         {/* test button END */}
 
-        {/* test post menu button START */}
-        {/* don't wor toggle class */}
-        <PostMenuButton onClick={togglePostMenuButton}></PostMenuButton>
-        <PostMenuButton onClick={togglePostMenuButton}></PostMenuButton>
-        {/* test post menu button END */}
-
-        {/* test Post START */}
-        <PostItem onClick={doNothing}></PostItem>
-        {/* test Post END */}
       </div>
 
     </div>

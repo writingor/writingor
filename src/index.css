@@ -26,7 +26,8 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit;  font-weight: inherit; }
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
 }
 
 .active {
@@ -36,4 +37,8 @@ body {
 .wrapper {
   width: 100%;
   max-width: 880px;
+}
+
+.content {
+  padding-top: 105px;
 }

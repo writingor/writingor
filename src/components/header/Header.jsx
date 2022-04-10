@@ -9,13 +9,15 @@ const Header = () => {
             <div className="wrapper">
 
                 <div className={css.Header__body}>
+
+                    <input type="text" placeholder='Поиск...' className={css.Header__search} />
+
                     <div className={css.headerlogo}>
                         <div className={css.headerlogo__leftsquare}></div>
                         <div className={css.headerlogo__midsquare}></div>
                         <div className={css.headerlogo__rightsquare}></div>
                     </div>
-
-                    <input type="text" placeholder='Поиск...' className={css.Header__search} />
+                    
                 </div>
 
             </div>
