@@ -1,11 +1,11 @@
 
 import React from 'react';
-import classes from './MainButton.module.css';
+import css from './MainButton.module.css';
 
 const MainButton = ({children, ...props}) => {
 
     return (
-        <button {...props} className={classes.MainButton}>
+        <button {...props} className={css.MainButton}>
             {children}
         </button>
     );

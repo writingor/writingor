@@ -1,0 +1,25 @@
+.PostItem {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 57px 55px 42px;
+    background-color: #ffffff;
+    border: 1px solid #E0E0E0;
+}
+
+.PostItem__title {
+        
+    text-align: left;
+    font-size: 23px;
+    line-height: 34px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.PostItem__text {
+    padding-top: 25px;
+    text-align: left;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+}

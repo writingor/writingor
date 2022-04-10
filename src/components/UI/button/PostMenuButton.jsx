@@ -1,14 +1,14 @@
 
-import React from 'react';
-import classes from './PostMenuButton.module.css';
+import React, { useEffect } from 'react';
+import css from './PostMenuButton.module.css';
 
-const PostMenuButton = (activeClass) => {
-
+const PostMenuButton = ({ children, isActive, ...props }) => {
+    
     return (
-        <div className={classes.PostMenuButton}>
-            <div className={classes.PostMenuButton__square + ' ' + classes.PostMenuButton__square_first + ' ' + activeClass}></div>
-            <div className={classes.PostMenuButton__square + ' ' + classes.PostMenuButton__square_second}></div>
-            <div className={classes.PostMenuButton__square + ' ' + classes.PostMenuButton__square_third}></div>
+        <div {...props} className={css.PostMenuButton}>
+            <div className={css.PostMenuButton__square + ' ' + css.PostMenuButton__square_first}></div>
+            <div className={css.PostMenuButton__square + ' ' + css.PostMenuButton__square_second}></div>
+            <div className={css.PostMenuButton__square + ' ' + css.PostMenuButton__square_third}></div>
         </div>
     );
 };
