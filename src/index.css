@@ -1,18 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+/* reset style */
+
+* { padding: 0;  margin: 0;  border: 0; }
+*, *:before, *:after { -moz-box-sizing: border-box;  -webkit-box-sizing: border-box;  box-sizing: border-box; }
+:focus, :active { outline: none; }
+a:focus, a:active { outline: none; }
+header, nav, aside, footer { display: block; }
+html, body { height: 100%;  width: 100%; min-width: 320px;  line-height: 1;  font-size: 14px;  -ms-text-size-adjust: 100%;  -moz-text-size-adjust: 100%;  text-size-adjust: 100%; }
+body, input, button, textarea { font-family: 'Open Sans', sans-serif; }
+input::-ms-clear { display: none; }
+button { cursor: pointer; }
+button::-moz-focus-inner { padding: 0;  border: 0; }
+a, a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+ul li { list-style: none; }
+img { vertical-align: top; font-size: 0;}
+h1, h2, h3, h4, h5, h6 { font-size: inherit;  font-weight: inherit; }
+
+/* common styles */
+
 * {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.03rem;
 }
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
+body {
+  background-color: #eeeeee;
 }
 
 .active {
   background-color: aqua;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 880px;
 }

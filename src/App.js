@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import MainButton from './components/UI/button/MainButton';
 import PostMenuButton from './components/UI/button/PostMenuButton';
 import PostItem from './components/post/PostItem';
+import Header from './components/header/Header';
 
 function App() {
 
@@ -19,53 +20,57 @@ function App() {
   }
 
   const togglePostMenuButton = () => {
-      setActive(!isActive);
-      console.log(isActive);
+    setActive(!isActive);
+    console.log(isActive);
   }
 
 
   return (
     <div className="App">
 
-      {/* test checkbox START */}
-      <KeyWordCheckbox
-        isNameIdFor="react"
-        value={checked}
-        onChange={toggleChecked}
-      >
-        React
-      </KeyWordCheckbox>
+      <Header></Header>
 
-      <KeyWordCheckbox
-        isNameIdFor="c-sharp"
-        value={checked}
-        onChange={toggleChecked}
-      >
-        C#
-      </KeyWordCheckbox>
+      <div className="wrapper">
+        {/* test checkbox START */}
+        <KeyWordCheckbox
+          isNameIdFor="react"
+          value={checked}
+          onChange={toggleChecked}
+        >
+          React
+        </KeyWordCheckbox>
 
-      <KeyWordCheckbox
-        isNameIdFor="js"
-        value={checked}
-        onChange={toggleChecked}
-      >
-        JavaScript
-      </KeyWordCheckbox>
-      {/* test checkbox END */}
+        <KeyWordCheckbox
+          isNameIdFor="c-sharp"
+          value={checked}
+          onChange={toggleChecked}
+        >
+          C#
+        </KeyWordCheckbox>
 
-      {/* test button START */}
-      <MainButton onClick={doNothing}>Найти похожие</MainButton>
-      {/* test button END */}
+        <KeyWordCheckbox
+          isNameIdFor="js"
+          value={checked}
+          onChange={toggleChecked}
+        >
+          JavaScript
+        </KeyWordCheckbox>
+        {/* test checkbox END */}
 
-      {/* test post menu button START */}
-      {/* don't wor toggle class */}
-      <PostMenuButton onClick={togglePostMenuButton}></PostMenuButton>
-      <PostMenuButton onClick={togglePostMenuButton}></PostMenuButton>
-      {/* test post menu button END */}
+        {/* test button START */}
+        <MainButton onClick={doNothing}>Найти похожие</MainButton>
+        {/* test button END */}
 
-      {/* test Post START */}
-      <PostItem onClick={doNothing}></PostItem>
-      {/* test Post END */}
+        {/* test post menu button START */}
+        {/* don't wor toggle class */}
+        <PostMenuButton onClick={togglePostMenuButton}></PostMenuButton>
+        <PostMenuButton onClick={togglePostMenuButton}></PostMenuButton>
+        {/* test post menu button END */}
+
+        {/* test Post START */}
+        <PostItem onClick={doNothing}></PostItem>
+        {/* test Post END */}
+      </div>
 
     </div>
   );
