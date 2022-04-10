@@ -30,8 +30,10 @@ body {
   overflow-x: hidden;
 }
 
-.active {
-  background-color: aqua;
+.open-modal {
+  width: 100px;
+  height: 50px;
+  background-color: aquamarine;
 }
 
 .wrapper {

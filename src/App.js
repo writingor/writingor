@@ -4,11 +4,12 @@ import React, { useState } from 'react';
 import MainButton from './components/UI/button/MainButton';
 import PostItem from './components/post/PostItem';
 import Header from './components/header/Header';
+import PostModal from './components/UI/modal/PostModal';
 
 function App() {
 
   const [checked, setChecked] = useState(false);
-
+  const [postModalActive, setPostModalActive] = useState(true);
 
   const toggleChecked = () => {
     setChecked(!checked);
@@ -29,42 +30,43 @@ function App() {
 
         <main className='content'>
           {/* test Post START */}
-          <PostItem onClick={doNothing} image={'./assets/img/cat1.jpg'} />
+          <PostItem onClick={doNothing} />
           <PostItem onClick={doNothing} />
           {/* test Post END */}
         </main>
 
+        {/* test modal START */}
+        <div className='open-modal' onClick={() => setPostModalActive(true)}>Open modal</div>
+        <PostModal active={postModalActive} setActive={setPostModalActive}>
+          {/* children here */}
+          {/* test checkbox START */}
+          <KeyWordCheckbox
+            isNameIdFor="react"
+            value={checked}
+            onChange={toggleChecked}
+          >
+            React
+          </KeyWordCheckbox>
 
+          <KeyWordCheckbox
+            isNameIdFor="c-sharp"
+            value={checked}
+            onChange={toggleChecked}
+          >
+            C#
+          </KeyWordCheckbox>
 
-        {/* test checkbox START */}
-        <KeyWordCheckbox
-          isNameIdFor="react"
-          value={checked}
-          onChange={toggleChecked}
-        >
-          React
-        </KeyWordCheckbox>
-
-        <KeyWordCheckbox
-          isNameIdFor="c-sharp"
-          value={checked}
-          onChange={toggleChecked}
-        >
-          C#
-        </KeyWordCheckbox>
-
-        <KeyWordCheckbox
-          isNameIdFor="js"
-          value={checked}
-          onChange={toggleChecked}
-        >
-          JavaScript
-        </KeyWordCheckbox>
-        {/* test checkbox END */}
-
-        {/* test button START */}
-        <MainButton onClick={doNothing}>Найти похожие</MainButton>
-        {/* test button END */}
+          <KeyWordCheckbox
+            isNameIdFor="js"
+            value={checked}
+            onChange={toggleChecked}
+          >
+            JavaScript
+          </KeyWordCheckbox>
+          {/* test checkbox END */}
+          <MainButton>Найти похожие</MainButton>
+        </PostModal>
+        {/* test modal END */}
 
       </div>
 
