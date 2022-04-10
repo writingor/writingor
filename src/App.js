@@ -5,6 +5,7 @@ import MainButton from './components/UI/button/MainButton';
 import PostItem from './components/post/PostItem';
 import Header from './components/header/Header';
 import PostModal from './components/UI/modal/PostModal';
+import PostMenuButton from './components/UI/button/PostMenuButton';
 
 function App() {
 
@@ -30,13 +31,19 @@ function App() {
 
         <main className='content'>
           {/* test Post START */}
-          <PostItem onClick={doNothing} />
-          <PostItem onClick={doNothing} />
+          <PostItem onClick={doNothing}>
+            <PostMenuButton className='open-modal' onClick={() => setPostModalActive(true)} />
+          </PostItem>
+
+          <PostItem onClick={doNothing}>
+            <PostMenuButton className='open-modal' onClick={() => setPostModalActive(true)} />
+          </PostItem>
           {/* test Post END */}
         </main>
 
         {/* test modal START */}
-        <div className='open-modal' onClick={() => setPostModalActive(true)}>Open modal</div>
+
+
         <PostModal active={postModalActive} setActive={setPostModalActive}>
           {/* children here */}
           {/* test checkbox START */}

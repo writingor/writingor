@@ -8,11 +8,7 @@ const PostItem = ({ children, image, ...props }) => {
     return (
         <div {...props} className={css.PostItem}>
 
-            <div {...props} className={css.PostItem__postmenu + ' ' + css.postmenu}>
-                <div className={css.postmenu__square + ' ' + css.postmenu__square_first}></div>
-                <div className={css.postmenu__square + ' ' + css.postmenu__square_second}></div>
-                <div className={css.postmenu__square + ' ' + css.postmenu__square_third}></div>
-            </div>
+            {children}
 
             <h2 className={css.PostItem__title}>HTTP - заголовки и т.д.</h2>
 
