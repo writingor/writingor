@@ -29,10 +29,7 @@ function App() {
 
         <main className='content'>
           {/* test Post START */}
-          <PostItem onClick={doNothing} />
-          <PostItem onClick={doNothing} />
-          <PostItem onClick={doNothing} />
-          <PostItem onClick={doNothing} />
+          <PostItem onClick={doNothing} image={'./assets/img/cat1.jpg'} />
           <PostItem onClick={doNothing} />
           {/* test Post END */}
         </main>
