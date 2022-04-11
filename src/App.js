@@ -10,7 +10,7 @@ import PostMenuButton from './components/UI/button/PostMenuButton';
 function App() {
 
   const [checked, setChecked] = useState(false);
-  const [postModalActive, setPostModalActive] = useState(true);
+  const [postModalActive, setPostModalActive] = useState(false);
 
   const toggleChecked = () => {
     setChecked(!checked);
@@ -32,11 +32,11 @@ function App() {
         <main className='content'>
           {/* test Post START */}
           <PostItem onClick={doNothing}>
-            <PostMenuButton className='open-modal' onClick={() => setPostModalActive(true)} />
+            <PostMenuButton active={postModalActive} setActive={setPostModalActive} />
           </PostItem>
 
           <PostItem onClick={doNothing}>
-            <PostMenuButton className='open-modal' onClick={() => setPostModalActive(true)} />
+            <PostMenuButton active={postModalActive} setActive={setPostModalActive} />
           </PostItem>
           {/* test Post END */}
         </main>
@@ -44,7 +44,7 @@ function App() {
         {/* test modal START */}
 
 
-        <PostModal active={postModalActive} setActive={setPostModalActive}>
+        <PostModal active={postModalActive} setActive={setPostModalActive} >
           {/* children here */}
           {/* test checkbox START */}
           <KeyWordCheckbox
