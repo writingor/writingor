@@ -11,6 +11,12 @@
     z-index: 2;
 }
 
+.Header__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .Header__search {
     display: inline-block;
     width: 100%;
@@ -19,6 +25,7 @@
     font-size: 21px;
     font-weight: 400;
     text-indent: 44px;
+    text-overflow: ellipsis;
     color: #878787;
     background-color: #f1f1f1;
     border: 1px solid #E0E0E0;
@@ -36,12 +43,6 @@
 .Header__search:focus {
     background-color: #fafafa;
     color: #555555;
-}
-
-.Header__body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .headerlogo {

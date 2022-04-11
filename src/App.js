@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="App">
 
-      <Header></Header>
+      <Header />
 
       <div className="wrapper">
 
         <main className='content'>
 
           {/* test postlist START*/}
-          <PostsList></PostsList>
+          <PostsList />
           {/* test postlist END */}
         </main>
 

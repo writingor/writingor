@@ -29,8 +29,14 @@
     background-color: #ffffff;
     transform: scale(0);
     transition: all 100ms linear;
+    overflow: hidden;
 }
 
 .post-modal__content.active {
     transform: scale(1);
+}
+
+.post-modal__checkbox {
+    display: flex;
+    flex-wrap: wrap;
 }

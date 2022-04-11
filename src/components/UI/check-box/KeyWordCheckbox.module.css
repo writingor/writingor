@@ -8,11 +8,14 @@
 
 .KeyWordCheckbox__label {
     display: inline-block;
+    padding: 9px 27px 11px;
     font-family: 'Open Sans', sans-serif; /* don't work ? */
     font-size: 17px;
     font-weight: 500;
-    line-height: 30px;
-    padding: 4px 27px 6px;
+    line-height: 22px;
+    text-align: center;
+    
+    text-overflow: ellipsis;
     color: #000000;
     background-color: #cecece;
     margin: 0px 14px 14px 0px;

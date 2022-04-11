@@ -20,7 +20,7 @@ const postsArray = [
             image: '',
             video: '',
         },
-        tags: ['react', 'jsx'],
+        tags: ['react', 'jsx', 'verylongmonoworddfdfdfd'],
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const postsArray = [
             image: '',
             video: '',
         },
-        tags: ['react', 'jsx'],
+        tags: ['react', 'jsx', 'c-sharp', 'javascript', 'visual-studio-code'],
     },
 ];
 

@@ -1,34 +1,25 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import css from './PostItem.module.css';
-import exampleImage from '../../assets/img/cat1.jpg';
+import PostMenuButton from '../UI/button/PostMenuButton';
+import PostModal from '../UI/modal/PostModal';
 
-const PostItem = ({ postItem, children, image, ...props }) => {
+const PostItem = ({ postItem, ...props }) => {
+
+    const [postModalActive, setPostModalActive] = useState(false);
 
     return (
         <div {...props} className={css.PostItem}>
 
-            {children}
+            <PostMenuButton active={postModalActive} setActive={setPostModalActive} postId={postItem.id} />
 
             <h2 className={css.PostItem__title}>{postItem.title}</h2>
 
             <p className={css.PostItem__text}>{postItem.content.text}</p>
 
-            {/* <div className={css.PostItem__imagebox}>
-                <div className={css.PostItem__image}>
-                    <img src={exampleImage} alt="cat" />
-                </div>
-            </div> */}
+            <PostModal active={postModalActive} setActive={setPostModalActive} postItem={postItem} >
 
-            {/* <div className={css.PostItem__codeblock}>
-                <pre className={css.codeblock__code}>
-
-                    &#123;<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;test code;<br />
-                    &#125;
-
-                </pre>
-            </div> */}
+            </PostModal>
 
         </div>
     );
