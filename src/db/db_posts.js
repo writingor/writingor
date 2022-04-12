@@ -9,7 +9,7 @@ const postsArray = [
             image: '',
             video: '',
         },
-        tags: ['html', 'http'],
+        tags: ['http', 'css', 'javascript'],
     },
     {
         id: 2,

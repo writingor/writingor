@@ -18,7 +18,7 @@ const Header = ({ filter, setFilter }) => {
                         onChange={e => setFilter(e.target.value)}
                     />
 
-                    <div className={css.headerlogo}>
+                    <div onClick={() => window.location.reload()} className={css.headerlogo}>
                         <div className={css.headerlogo__leftsquare}></div>
                         <div className={css.headerlogo__midsquare}></div>
                         <div className={css.headerlogo__rightsquare}></div>

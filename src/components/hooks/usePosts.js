@@ -5,7 +5,7 @@ const usePosts = (posts, query) => {
 
     const searchedAndSortedPosts = useMemo(() => {
         return posts.filter(post => post.title.toLocaleLowerCase().includes(query.toLocaleLowerCase()));
-    }, [query]);
+    }, [query, posts]);
 
     return searchedAndSortedPosts;
 }

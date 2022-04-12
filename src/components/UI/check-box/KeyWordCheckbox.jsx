@@ -11,6 +11,7 @@ const KeyWordCheckbox = ({ children, id, ...props }) => {
                 id={id}
                 name={id}
                 type={"checkbox"}
+                defaultChecked={props.checked}
                 value={props.checked}
                 onChange={props.toggleChecked}
             />
