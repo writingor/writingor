@@ -1,0 +1,26 @@
+.MainButton {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 29px 14px;
+    background-color: #f0f0f0;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #9455A4;
+    outline: none;
+    border: 0px;
+    transition: all 100ms linear;
+    cursor: pointer;
+}
+
+.MainButton:hover {
+    /* background-color: #a857bd; */
+}
+
+.MainButton:active {
+    background-color: #a857bd;
+    transform: scale(0.98);
+}

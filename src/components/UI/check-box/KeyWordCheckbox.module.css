@@ -1,0 +1,41 @@
+.KeyWordCheckbox {
+    
+}
+
+.KeyWordCheckbox__input {
+    display: none;
+}
+
+.KeyWordCheckbox__label {
+    display: inline-block;
+    padding: 9px 27px 11px;
+    font-family: 'Open Sans', sans-serif; /* don't work ? */
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: #000000;
+    background-color: #cecece;
+    margin: 0px 14px 14px 0px;
+    transition: all 100ms linear;
+    cursor: pointer;
+}
+
+.KeyWordCheckbox__input:checked + label {
+    background-color: #FFCA7B;
+}
+
+.KeyWordCheckbox__input:checked + label:active {
+    background-color: #E0E0E0;
+    transform: scale(0.98);
+}
+
+.KeyWordCheckbox__label:active {
+    background-color: #E0E0E0;
+    transform: scale(0.96);
+}
+
+.KeyWordCheckbox__label::selection {
+    background-color: transparent;
+}
