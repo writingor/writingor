@@ -1,24 +1,20 @@
 import React from "react";
-import postsArray from "../../db/db_posts";
 import PostItem from "../post/PostItem";
 
-const PostsList = () => {
-  
-    // const doNothing = (e) => {
-    //   e.preventDefault();
-    // }
+const PostsList = (posts) => {
 
-    const postsMap = postsArray.map((postItem, pos) => {
+    if (!posts.posts.length) {
         return (
-            <PostItem key={postItem.id} postItem={postItem} pos={pos} />
+
+            <div>{console.log(posts)}No posts...</div>
         );
-    });
+    }
 
     return (
         <div>
-
-            {postsMap}
-
+            {/* {console.log(Array.isArray(posts))}
+            {console.log(console.log(posts))} */}
+            {posts.posts.map((post) => <PostItem key={post.id} postItem={post} />)}
         </div>
     );
 };
