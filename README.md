@@ -65,5 +65,5 @@ Feel free to reach out to me if you'd like to collaborate on a project or discus
 ---
 
 ### Let's connect! 🤝
-[LinkedIn](https://www.linkedin.com/in/writingor)
+[![LinkedIn](https://github.com/writingor/writingor/blob/main/static/img/LinkedIn-banner.png?raw=true)](https://www.linkedin.com/in/writingor "LinkedIn")
 
