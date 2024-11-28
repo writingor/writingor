@@ -66,20 +66,6 @@ Here are some of the technologies I've worked with:
 - **Photoshop**
 - **CorelDRAW**
 
-## 💻 Technologies & Skills
-
-Here are some of the technologies I've worked with:
-
-| **Category**                | **Technologies**                                                                                             |  
-|-----------------------------|------------------------------------------------------------------------------------------------------------|  
-| **Frontend Development 🖥️** | ![React](https://path-to-react-logo) React JS  <br> ![React Native](https://path-to-react-native-logo) React Native <br> ![JavaScript](https://path-to-js-logo) JavaScript/TypeScript <br> ![HTML](https://path-to-html-logo) HTML/Pug/Jade/Blade <br> ![CSS](https://path-to-css-logo) CSS/SCSS/SASS <br> ![Webpack](https://path-to-webpack-logo) Webpack <br> ![Gulp](https://path-to-gulp-logo) Gulp |  
-| **Backend and App Development 🌐** | ![Python](https://path-to-python-logo) Python (Django, Selenium) <br> ![PHP](https://path-to-php-logo) PHP (WordPress, Laravel, 1C Bitrix) <br> ![C#](https://path-to-csharp-logo) C# (ASP.NET) <br> ![Java](https://path-to-java-logo) Java |  
-| **Databases 🗄️**           | ![PostgreSQL](https://path-to-postgresql-logo) PostgreSQL <br> ![MySQL](https://path-to-mysql-logo) MySQL |  
-| **DevOps & Tools ⚙️**       | ![Docker](https://path-to-docker-logo) Docker <br> ![Git](https://path-to-git-logo) Git/GitHub/Gitea <br> ![Bash](https://path-to-bash-logo) Bash <br> ![Linux](https://path-to-linux-logo) Linux |  
-| **E-Commerce 🛒**           | ![Shopify](https://path-to-shopify-logo) Shopify <br> ![WooCommerce](https://path-to-woocommerce-logo) WooCommerce |  
-| **Graphics (User Perspective) 🎨** | ![Figma](https://path-to-figma-logo) Figma <br> ![Photoshop](https://path-to-photoshop-logo) Photoshop <br> ![CorelDRAW](https://path-to-coreldraw-logo) CorelDRAW |
-
-
 ---
 
 ## 📫 Get in Touch
