@@ -16,14 +16,14 @@ I try to keep this list updated with links to functioning websites, but I may be
 
 | **Name**    | **Description**                                  | **Link**                                   | **Screenshot**                      |
 |-------------|--------------------------------------------------|--------------------------------------------|-------------------------------------|
-| **Escape Campers**   | Created the frontend and developed a WordPress theme supporting WooCommerce. | <a href="[http://example.com/](https://www.escape-campers.co.uk/)" target="_blank">www.escape-campers.co.uk</a>                  | ![Escape Campers](https://github.com/writingor/writingor/blob/main/static/img/escape-campers.png?raw=true) |
-| **Moola**   | Set up AWS services, created the frontend, and developed a WordPress theme. Additionally, I created custom Gutenberg blocks using the ReactJS library. | [moo.la](https://moo.la/){:target="_blank"}                   | ![Moola](https://github.com/writingor/writingor/blob/main/static/img/moola.jpg?raw=true) |
-| **AlfaMedStar**   | Created the frontend and developed a WordPress theme. | [alfamedstar.co.uk](https://alfamedstar.co.uk/){:target="_blank"}                   | ![AlfaMedStar](https://github.com/writingor/writingor/blob/main/static/img/alfamedstar.jpg?raw=true) |
-| **DSCR Investors Network**    | Created the frontend and developed a WordPress theme.         | [dscrinvestors.net](https://dscrinvestors.net/){:target="_blank"}               | ![DSCR](https://github.com/writingor/writingor/blob/main/static/img/dscr.jpg?raw=true) |
-| **Elfa Serbia**   | Created the frontend and a very simple backend in PHP. | [ormari.rs](https://ormari.rs/en/){:target="_blank"}                   | ![Elfa Serbia](https://github.com/writingor/writingor/blob/main/static/img/elfa.png?raw=true) |
-| **NIKOLA EnoDispensers doo**   | Created the frontend and developed a WordPress theme. | [enomat.rs](https://enomat.rs/en/){:target="_blank"}                   | ![NIKOLA EnoDispensers doo](https://github.com/writingor/writingor/blob/main/static/img/enomat.png?raw=true) |
-| **Flora & Fauna Clothing**   | Created the HTML-markup for popups and integrated them into an existing Shopify theme | [flora-fauna.us](https://flora-fauna.us/){:target="_blank"}                   | ![Flora & Fauna Clothing](https://github.com/writingor/writingor/blob/main/static/img/flora-fauna.png?raw=true) |
-| **MzeroA Online Ground School**   | Created the frontend with GSAP, WebGI, and Three.js animations, along with a simple backend in PHP. | [school.mzeroa.com/lite/](https://school.mzeroa.com/lite/){:target="_blank"}                   | ![MzeroA Online Ground School](https://github.com/writingor/writingor/blob/main/static/img/mzeroa.png?raw=true) |
+| **Escape Campers**   | Created the frontend and developed a WordPress theme supporting WooCommerce. | [www.escape-campers.co.uk](https://www.escape-campers.co.uk/)                  | ![Escape Campers](https://github.com/writingor/writingor/blob/main/static/img/escape-campers.png?raw=true) |
+| **Moola**   | Set up AWS services, created the frontend, and developed a WordPress theme. Additionally, I created custom Gutenberg blocks using the ReactJS library. | [moo.la](https://moo.la/)                   | ![Moola](https://github.com/writingor/writingor/blob/main/static/img/moola.jpg?raw=true) |
+| **AlfaMedStar**   | Created the frontend and developed a WordPress theme. | [alfamedstar.co.uk](https://alfamedstar.co.uk/)                   | ![AlfaMedStar](https://github.com/writingor/writingor/blob/main/static/img/alfamedstar.jpg?raw=true) |
+| **DSCR Investors Network**    | Created the frontend and developed a WordPress theme.         | [dscrinvestors.net](https://dscrinvestors.net/)               | ![DSCR](https://github.com/writingor/writingor/blob/main/static/img/dscr.jpg?raw=true) |
+| **Elfa Serbia**   | Created the frontend and a very simple backend in PHP. | [ormari.rs](https://ormari.rs/en/)                   | ![Elfa Serbia](https://github.com/writingor/writingor/blob/main/static/img/elfa.png?raw=true) |
+| **NIKOLA EnoDispensers doo**   | Created the frontend and developed a WordPress theme. | [enomat.rs](https://enomat.rs/en/)                   | ![NIKOLA EnoDispensers doo](https://github.com/writingor/writingor/blob/main/static/img/enomat.png?raw=true) |
+| **Flora & Fauna Clothing**   | Created the HTML-markup for popups and integrated them into an existing Shopify theme | [flora-fauna.us](https://flora-fauna.us/)                   | ![Flora & Fauna Clothing](https://github.com/writingor/writingor/blob/main/static/img/flora-fauna.png?raw=true) |
+| **MzeroA Online Ground School**   | Created the frontend with GSAP, WebGI, and Three.js animations, along with a simple backend in PHP. | [school.mzeroa.com/lite/](https://school.mzeroa.com/lite/)                   | ![MzeroA Online Ground School](https://github.com/writingor/writingor/blob/main/static/img/mzeroa.png?raw=true) |
 
 ---
 
@@ -74,5 +74,5 @@ Feel free to reach out to me if you'd like to collaborate on a project or discus
 ---
 
 ### Let's connect! 🤝
-[LinkedIn](https://www.linkedin.com/in/writingor){:target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/writingor)
 
