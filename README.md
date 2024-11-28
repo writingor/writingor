@@ -2,6 +2,8 @@
 
 I'm a multidisciplinary **Fullstack Developer** with a strong passion for continuous professional growth and learning. While I don't claim to be a super-master in any one specific edge of IT, I'm driven to learn and adapt to new technologies and challenges. My focus is on delivering high-quality work that makes an impact. 🚀
 
+---
+
 ## 📂 Portfolio
 
 ### Check out some of my _public projects_
