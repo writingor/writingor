@@ -32,7 +32,7 @@ I try to keep this list updated with links to functioning websites, but I may be
 
 Here are some of the technologies I've worked with:
 
-### Frontend Development 🖥️
+### 🖥️ Frontend Development 
 - **React JS** 
 - **React Native**
 - **JavaScript/TypeScript**
@@ -41,27 +41,27 @@ Here are some of the technologies I've worked with:
 - **Webpack**
 - **Gulp**
 
-### Backend and App Development 🌐
+### 🌐 Backend and App Development 
 - **Python (Django, Selenium)**
 - **PHP (WordPress, Laravel, 1C Bitrix)**
 - **C# (ASP.NET)** 
 - **Java**
 
-### Databases 🗄️
+### 🗄️ Databases 
 - **PostgreSQL**
 - **MySQL**
 
-### DevOps & Tools ⚙️
+### ⚙️ DevOps & Tools
 - **Docker**
 - **Git/GitHub/Gitea**
 - **Bash**
 - **Linux**
 
-### E-Commerce 🛒
+### 🛒 E-Commerce 
 - **Shopify**
 - **WooCommerce**
 
-### Graphics (User Perspective) 🎨
+### 🎨 Graphics (User Perspective) 
 - **Figma**
 - **Photoshop**
 - **CorelDRAW**
