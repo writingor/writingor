@@ -33,38 +33,28 @@ I try to keep this list updated with links to functioning websites, but I may be
 Here are some of the technologies I've worked with:
 
 ### 🖥️ Frontend Development 
-- **React JS** 
-- **React Native**
-- **JavaScript/TypeScript**
-- **HTML/Pug/Jade/Blade**
-- **CSS/SCSS/SASS**
-- **Webpack**
-- **Gulp**
+| **React JS** | **React Native** | **JavaScript/TypeScript** | **HTML/Pug/Jade/Blade** | **CSS/SCSS/SASS** | **Webpack** | **Gulp** |
+|--------------|------------------|---------------------------|-------------------------|-------------------|-------------|----------|
 
 ### 🌐 Backend and App Development 
-- **Python (Django, Selenium)**
-- **PHP (WordPress, Laravel, 1C Bitrix)**
-- **C# (ASP.NET)** 
-- **Java**
+| **Python (Django, Selenium)** | **PHP (WordPress, Laravel, 1C Bitrix)** | **C# (ASP.NET)** | **Java** |
+|--------------------------------|----------------------------------------|-------------------|---------|
 
 ### 🗄️ Databases 
-- **PostgreSQL**
-- **MySQL**
+| **PostgreSQL** | **MySQL** |
+|----------------|-----------|
 
-### ⚙️ DevOps & Tools
-- **Docker**
-- **Git/GitHub/Gitea**
-- **Bash**
-- **Linux**
+### ⚙️ DevOps & Tools 
+| **Docker** | **Git/GitHub/Gitea** | **Bash** | **Linux** |
+|------------|---------------------|----------|-----------|
 
 ### 🛒 E-Commerce 
-- **Shopify**
-- **WooCommerce**
+| **Shopify** | **WooCommerce** |
+|-------------|------------------|
 
 ### 🎨 Graphics (User Perspective) 
-- **Figma**
-- **Photoshop**
-- **CorelDRAW**
+| **Figma** | **Photoshop** | **CorelDRAW** |
+|-----------|---------------|---------------|
 
 ---
 
