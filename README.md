@@ -22,7 +22,7 @@ I try to keep this list updated with links to functioning websites, but I may be
 | **DSCR Investors Network**    | Created the frontend and developed a WordPress theme.         | [dscrinvestors.net](https://dscrinvestors.net/)               | ![DSCR](https://github.com/writingor/writingor/blob/main/static/img/dscr.jpg?raw=true) |
 | **Elfa Serbia**   | Created the frontend and a very simple backend in PHP. | [ormari.rs](https://ormari.rs/en/)                   | ![Elfa Serbia](https://github.com/writingor/writingor/blob/main/static/img/elfa.png?raw=true) |
 | **NIKOLA EnoDispensers doo**   | Created the frontend and developed a WordPress theme. | [enomat.rs](https://enomat.rs/en/)                   | ![NIKOLA EnoDispensers doo](https://github.com/writingor/writingor/blob/main/static/img/enomat.png?raw=true) |
-| **Flora & Fauna Clothing**   | Created the HTML-markup for popups and integrated them into an existing Shopify theme | [flora-fauna.us](https://flora-fauna.us/)                   | ![Flora & Fauna Clothing](https://via.placeholder.com/150) |
+| **Flora & Fauna Clothing**   | Created the HTML-markup for popups and integrated them into an existing Shopify theme | [flora-fauna.us](https://flora-fauna.us/)                   | ![Flora & Fauna Clothing](https://github.com/writingor/writingor/blob/main/static/img/flora-fauna.png?raw=true) |
 | **MzeroA Online Ground School**   | Created the frontend with GSAP, WebGI, and Three.js animations, along with a simple backend in PHP. | [school.mzeroa.com/lite/](https://school.mzeroa.com/lite/)                   | ![MzeroA Online Ground School](https://github.com/writingor/writingor/blob/main/static/img/mzeroa.png?raw=true) |
 
 ---
