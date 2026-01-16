@@ -1,6 +1,4 @@
-# Hi there! 👋
-
-I'm a multidisciplinary **Fullstack Developer** with a strong passion for continuous professional growth and learning. While I don't claim to be a super-master in any one specific edge of IT, I'm driven to learn and adapt to new technologies and challenges. My focus is on delivering high-quality work that makes an impact. 🚀
+# Hi 👋
 
 ---
 
@@ -9,24 +7,24 @@ I'm a multidisciplinary **Fullstack Developer** with a strong passion for contin
 Here are some of the technologies I've worked with:
 
 ### 🖥️ Frontend Development 
-| **React JS** | **React Native** | **JavaScript/TypeScript** | **HTML/Pug/Jade/Blade** | **CSS/SCSS/SASS** | **Webpack** | **Gulp** |
-|--------------|------------------|---------------------------|-------------------------|-------------------|-------------|----------|
+| **Vue** | **React JS** | **React Native** | **JavaScript/TypeScript** | **HTML/Pug/Jade/Blade** | **CSS/SCSS/SASS** | **Webpack** | **Gulp** |
+|---------|--------------|------------------|---------------------------|-------------------------|-------------------|-------------|----------|
 
 ### 🌐 Backend and App Development 
-| **Python (Django, Selenium)** | **Rust** | **PHP (WordPress, Laravel, 1C Bitrix)** | **C# (ASP.NET)** | **Java** |
-|--------------------------------|--------------------------------|----------------------------------------|-------------------|---------|
+| **Python (Django, Fast API)** | **Rust** | **PHP (WordPress, Laravel, 1C Bitrix)** | **Elixir (Phoenix)** | **Java** |
+|-------------------------------|----------|-----------------------------------------|----------------------|----------|
 
 ### 🗄️ Databases 
 | **PostgreSQL** | **MySQL** |
 |----------------|-----------|
 
 ### ⚙️ DevOps & Tools 
-| **Docker** | **Git/GitHub/Gitea** | **Bash** | **Linux** |
-|------------|---------------------|----------|-----------|
+| **Nginx** | **Apache** | **Docker** | **Git** | **Bash** | **Linux** |
+|-----------|------------|------------|---------|----------|-----------|
 
 ### 🛒 E-Commerce 
 | **Shopify** | **WooCommerce** |
-|-------------|------------------|
+|-------------|-----------------|
 
 ### 🎨 Graphics (User Perspective) 
 | **Figma** | **Photoshop** | **CorelDRAW** |
@@ -53,7 +51,6 @@ I try to keep this list updated with links to functioning websites, but I may be
 | **Elfa Serbia**   | Created the frontend and a very simple backend in PHP. | [ormari.rs](https://ormari.rs/en/)                   | ![Elfa Serbia](https://github.com/writingor/writingor/blob/main/static/img/elfa.png?raw=true) |
 | **Home Feelings**   | Created the frontend. | [homefeelings.eu](https://homefeelings.eu/en/projects)                   | ![Home Feelings](https://github.com/writingor/writingor/blob/main/static/img/homefeelings.png?raw=true) |
 | **NIKOLA EnoDispensers doo**   | Created the frontend and developed a WordPress theme. | [enomat.rs](https://enomat.rs/en/)                   | ![NIKOLA EnoDispensers doo](https://github.com/writingor/writingor/blob/main/static/img/enomat.png?raw=true) |
-| **Flora & Fauna Clothing**   | Created the HTML-markup for popups and integrated them into an existing Shopify theme | [flora-fauna.us](https://flora-fauna.us/)                   | ![Flora & Fauna Clothing](https://github.com/writingor/writingor/blob/main/static/img/flora-fauna.png?raw=true) |
 | **MzeroA Online Ground School**   | Created the frontend with GSAP, WebGI, and Three.js animations, along with a simple backend in PHP. | [school.mzeroa.com/lite/](https://school.mzeroa.com/lite/)                   | ![MzeroA Online Ground School](https://github.com/writingor/writingor/blob/main/static/img/mzeroa.png?raw=true) |
 
 ---
